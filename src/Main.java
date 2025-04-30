@@ -72,10 +72,10 @@ public class Main {
                 arr1[i] ++;
             }
             if (i == arr1.length - 1) {
-                System.out.print(arr1[i]);
+                System.out.print(Arrays.toString(arr1));
                 break;
             }
-            System.out.print(arr1[i] + ", ");
+
         }
 
     }
